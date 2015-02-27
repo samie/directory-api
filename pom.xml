@@ -17,8 +17,8 @@
         <url>git://github.com/samie/directory-api.git</url>
         <connection>scm:git:git://github.com/samie/directory-api.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:/samie/directory-api.git</developerConnection>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
     
     <developers>
         <developer>
@@ -58,5 +58,15 @@
         </dependency>        
 
     </dependencies>
-
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.1</version>
+                <configuration>
+                    <releaseProfiles>directory-release</releaseProfiles>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
