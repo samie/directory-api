@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.vaadin.directory</groupId>
     <artifactId>directory-api</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
     <description>Java API for vaadin.com/directory</description>
     
@@ -17,7 +17,7 @@
         <url>git://github.com/samie/directory-api.git</url>
         <connection>scm:git:git://github.com/samie/directory-api.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:/samie/directory-api.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>directory-api-1.0.1</tag>
     </scm>
     
     <developers>
