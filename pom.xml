@@ -20,6 +20,12 @@
         <tag>HEAD</tag>
     </scm>
     
+    <distributionManagement>
+        <repository>
+            <id>vaadin-addons</id>
+        </repository>
+    </distributionManagement>
+    
     <developers>
         <developer>
             <name>Sami Ekblad</name>
