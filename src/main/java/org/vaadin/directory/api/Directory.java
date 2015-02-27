@@ -44,10 +44,10 @@ import javax.ws.rs.ext.Provider;
  */
 public class Directory {
 
-    private static String DIRECTORY_API = "https://vaadin.com/Directory/resource/addon/all";
-    private static String QUERY_DETAILS = "detailed";
-    private static String QUERY_VAADIN = "vaadin";
-    private static String LATEST7_URL = "https://vaadin.com/download/LATEST7";
+    private static final String DIRECTORY_API = "https://vaadin.com/Directory/resource/addon/all";
+    private static final String QUERY_DETAILS = "detailed";
+    private static final String QUERY_VAADIN = "vaadin";
+    private static final String LATEST7_URL = "https://vaadin.com/download/LATEST7";
 
     /**
      * List all addons from Directory.
