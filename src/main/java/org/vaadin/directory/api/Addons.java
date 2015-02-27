@@ -20,7 +20,7 @@ package org.vaadin.directory.api;
 
 import java.util.List;
 
-/**
+/** List of queried addons.
  *
  * @author Sami Ekblad
  */

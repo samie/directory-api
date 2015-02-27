@@ -23,7 +23,7 @@ import java.util.Date;
 import java.util.List;
 import javax.annotation.Generated;
 
-/**
+/** Vaadin Add-on information in Directory.
  *
  * @author Sami Ekblad
  */

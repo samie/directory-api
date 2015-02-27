@@ -38,7 +38,7 @@ import javax.ws.rs.ext.ContextResolver;
 import javax.ws.rs.ext.Provider;
 
 /**
- * Remote API to VAadin Directory.
+ * Remote API to Vaadin Directory.
  *
  * @author Sami Ekblad
  */
