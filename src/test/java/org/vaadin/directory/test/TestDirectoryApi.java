@@ -45,7 +45,7 @@ public class TestDirectoryApi extends TestCase {
     }
 
     public void testSearch() {
-        List<Addon> results = Directory.search("7", "confirm", false);
+        List<Addon> results = Directory.search("7", "ConfirmDialog", false);
         assertEquals(1, results.size());
         assertEquals("ConfirmDialog", results.get(0).getName());
     }
